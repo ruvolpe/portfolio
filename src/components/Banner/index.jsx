@@ -14,6 +14,8 @@ import {
   StyledTextDiv,
 } from "./styles";
 import rubitube from "../../assets/rubitube.png";
+import robofriends from "../../assets/robofriends.png";
+import bank from "../../assets/bank.png";
 import github from "../../assets/github.svg";
 import profilepic from "../../assets/profilepic.png";
 
@@ -53,8 +55,8 @@ function Banner() {
       </StyledDiv>
       <StyledImageBox>
         <img src={rubitube} alt="" />
-        <img src={rubitube} alt="" />
-        <img src={rubitube} alt="" />
+        <img src={robofriends} alt="" />
+        <img src={bank} alt="" />
         <img src={rubitube} alt="" />
         <img src={rubitube} alt="" />
         <img src={rubitube} alt="" />

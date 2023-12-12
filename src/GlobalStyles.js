@@ -9,7 +9,8 @@ const GlobalStyles = createGlobalStyle`
     --white:#F8F9FA;
     --grey:#868E96;
     --dark-grey:#212529;
-    font-family: "Inter"
+    font-family: "Inter";
+    background: #212529;
 }
   html {
     box-sizing: border-box;

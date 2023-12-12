@@ -93,7 +93,7 @@ export const StyledImageBox = styled.div`
     perspective: 800px;
     width: 100vh;
     height: 90vh;
-    animation: ${rotateUp} 20s ease-in-out infinite;
+    animation: ${rotateUp} 15s ease-in-out infinite;
     z-index: 2;
 
     img {

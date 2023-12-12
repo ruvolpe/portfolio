@@ -5,10 +5,11 @@ import Projects from "./components/Projects";
 import Social from "./components/Social";
 import Footer from "./components/Footer";
 import GlobalStyles from "./GlobalStyles";
+import { ParallaxProvider } from "react-scroll-parallax";
 
 function App() {
   return (
-    <>
+    <ParallaxProvider>
       <GlobalStyles />
       <Header />
       <Banner />
@@ -16,7 +17,7 @@ function App() {
       <Projects />
       <Social />
       <Footer />
-    </>
+    </ParallaxProvider>
   );
 }
 
