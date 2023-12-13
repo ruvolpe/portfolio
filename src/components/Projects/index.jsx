@@ -1,5 +1,5 @@
 import { Card } from "../../fragments/Card";
-import { StyledMain } from "./styles";
+import { StyledDiv, StyledMain } from "./styles";
 import robofriends from "../../assets/robofriends.png";
 import rubitube from "../../assets/rubitube.png";
 import bank from "../../assets/bank.png";

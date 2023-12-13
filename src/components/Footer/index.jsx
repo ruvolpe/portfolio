@@ -1,16 +1,24 @@
 import profilepic from "../../assets/profilepic.png";
-import { StyledImage, StyledDiv } from "./styles";
+import {
+  StyledImage,
+  StyledProfilePicBox,
+  StyledOverlay,
+  StyledFooter,
+  StyledTextWrapper,
+} from "./styles";
 
 function Footer() {
   return (
-    <StyledDiv>
-      <div>
-        <StyledImage src={profilepic} alt="profile picture" />
-      </div>
-      <div>
-        <p>Thank you!</p>
-      </div>
-    </StyledDiv>
+    <StyledFooter>
+      <StyledProfilePicBox>
+        <StyledImage src={profilepic} />
+        <StyledOverlay />
+      </StyledProfilePicBox>
+      <StyledTextWrapper>
+        <h4>Thank you!</h4>
+        <p>Get in contact and let's talk</p>
+      </StyledTextWrapper>
+    </StyledFooter>
   );
 }
 

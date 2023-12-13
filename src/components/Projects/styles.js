@@ -20,3 +20,7 @@ export const StyledCard = styled.div`
   width: 300px;
   background: red;
 `;
+
+export const StyledDiv = styled.div`
+  background: red;
+`;

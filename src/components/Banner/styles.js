@@ -74,7 +74,6 @@ export const StyledTextDiv = styled.div`
 
 export const StyledH1 = styled.h1`
   font-size: 2em;
-  font-family: "Arial", sans-serif;
   color: var(--white);
 `;
 
