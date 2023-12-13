@@ -37,7 +37,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   a:hover{
-        transform: scale(1.1);
+        transform: scale(1.05);
     }
 `;
 

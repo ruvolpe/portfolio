@@ -8,7 +8,7 @@ const cardVariants = {
   },
   onscreen: {
     y: 50,
-    rotate: -10,
+    // rotate: -10,
     transition: {
       type: "spring",
       bounce: 0.4,
@@ -25,7 +25,7 @@ export function Card({ title, url, img, techs }) {
       whileInView="onscreen"
       viewport={{ once: true, amount: 0.8 }}
     >
-      {/* <div className="splash" style={{ background }} /> */}
+      <div className="splash" />
       <motion.div className="card" variants={cardVariants}>
         <a href={url}>{title}</a>
         <p className="projects-techs">{techs}</p>

@@ -6,21 +6,11 @@ export const StyledMain = styled.main`
   overflow: hidden;
   background: var(--dark-grey);
   color: var(--white);
-  padding: 50px;
+  padding: 40px;
 `;
 
 export const StyledBox = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-`;
-
-export const StyledCard = styled.div`
-  height: 300px;
-  width: 300px;
-  background: red;
-`;
-
-export const StyledDiv = styled.div`
-  background: red;
 `;

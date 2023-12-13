@@ -4,12 +4,13 @@ import jsIcon from "../../assets/js.svg";
 import nodeIcon from "../../assets/node.svg";
 import reactIcon from "../../assets/react.svg";
 import pythonIcon from "../../assets/python.svg";
-import { StyledBox, StyledMain } from "./styles";
+import { StyledBox, StyledMain, StyledTriangle } from "./styles";
 import { Parallax } from "react-scroll-parallax";
 
 function Techs() {
   return (
     <StyledMain id="techs">
+      <StyledTriangle />
       <Parallax translateY={[-100, 50]}>
         <StyledBox>
           <img src={htmlIcon} alt="HTML Icon" />
