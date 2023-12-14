@@ -14,7 +14,7 @@ const rotateUp = keyframes`
 
 export const StyledMain = styled.main`
   display: flex;
-  max-height: 90vh;
+  height: 100vh;
   width: 100vw;
   overflow: hidden;
   background: linear-gradient(

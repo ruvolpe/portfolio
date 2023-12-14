@@ -17,7 +17,7 @@ const cardVariants = {
   },
 };
 
-export function Card({ title, url, img, techs }) {
+export function Card({ title, url, img, github }) {
   return (
     <motion.div
       className="card-container"
@@ -27,8 +27,12 @@ export function Card({ title, url, img, techs }) {
     >
       <div className="splash" />
       <motion.div className="card" variants={cardVariants}>
-        <a href={url}>{title}</a>
-        <p className="projects-techs">{techs}</p>
+        <a className="title" href={url}>
+          {title}
+        </a>
+        <a className="link" href={github}>
+          repository
+        </a>
         <img className="projects-img" src={img} alt="" />
       </motion.div>
     </motion.div>

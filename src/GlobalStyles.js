@@ -29,9 +29,9 @@ const GlobalStyles = createGlobalStyle`
 
   a {
     color: var(--white);
-    background: var(--purple);
+    /* background: var(--purple);
     border-radius: 25px;
-    padding: 16px 10px;
+    padding: 16px 10px; */
     text-decoration: none;
     transition: transform 0.3s ease-in-out;
   }

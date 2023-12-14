@@ -4,11 +4,14 @@ export const StyledMain = styled.main`
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 100%;
   width: 100vw;
   overflow: hidden;
   background: var(--dark-grey);
   color: var(--grey);
+  @media (min-width: 768px) {
+    height: 100vh;
+  }
 `;
 
 export const StyledBox = styled.div`
