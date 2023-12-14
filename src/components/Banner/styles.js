@@ -17,13 +17,7 @@ export const StyledMain = styled.main`
   height: 100vh;
   width: 100vw;
   overflow: hidden;
-  background: linear-gradient(
-    to top left,
-    var(--grey) 15%,
-    var(--dark-grey) 65%,
-    var(--grey) 15%,
-    var(--dark-grey) 15%
-  );
+  background: var(--dark-grey);
   color: var(--grey);
 `;
 
@@ -48,7 +42,7 @@ export const StyledHelloBox = styled.div`
 export const StyledImage = styled.img`
   width: 50px;
   height: 50px;
-  border-radius: 50%;
+  border-radius: 25%;
   filter: grayscale(100%);
   transform: scaleX(-1);
 `;
@@ -65,7 +59,7 @@ export const StyledOverlay = styled.div`
   height: 50px;
   background-color: var(--transparent-purple);
   mix-blend-mode: multiply;
-  border-radius: 100%;
+  border-radius: 25%;
 `;
 
 export const StyledTextDiv = styled.div`
@@ -122,7 +116,7 @@ export const StyledLinkBox = styled.div`
 `;
 
 export const StyledA = styled.a`
-  border-radius: 100%;
+  border-radius: 25%;
   height: 50px;
   width: 50px;
   display: flex;

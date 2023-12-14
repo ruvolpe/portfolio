@@ -1,27 +1,7 @@
 import styled from "styled-components";
 
-export const StyledFocusBox = styled.div`
-  position: relative;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  margin: 0;
-`;
-
-export const StyledFocus = styled.div`
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  border: 2px solid #333;
-  border-radius: 50%;
-  transform: translate(-50%, -50%);
-  pointer-events: none;
-`;
-
 export const StyledMain = styled.main`
-  height: 100vh;
+  height: 100%;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -34,6 +14,7 @@ export const StyledMain = styled.main`
 
   @media (min-width: 768px) {
     flex-direction: row;
+    height: 100vh;
   }
 `;
 
@@ -74,7 +55,7 @@ export const StyledIconWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 20px;
+  border-radius: 25%;
 `;
 
 export const StyledTextWrapper = styled.div`

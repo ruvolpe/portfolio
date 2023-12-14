@@ -9,7 +9,9 @@ export const StyledFooter = styled.footer`
   overflow: hidden;
   background: var(--dark-grey);
   color: var(--grey);
-  padding: 10px clamp(3.125rem, 6rem, 7rem) 10px clamp(3.125rem, 6rem, 7rem);
+  @media (min-width: 768px) {
+    padding: 10px clamp(3.125rem, 6rem, 7rem) 10px clamp(3.125rem, 6rem, 7rem);
+  }
 `;
 
 export const StyledTextWrapper = styled.div`
@@ -23,7 +25,7 @@ export const StyledTextWrapper = styled.div`
 export const StyledImage = styled.img`
   width: 50px;
   height: 50px;
-  border-radius: 50%;
+  border-radius: 25%;
   filter: grayscale(100%);
   transform: scaleX(-1);
 `;
@@ -40,7 +42,7 @@ export const StyledOverlay = styled.div`
   height: 50px;
   background-color: var(--transparent-purple);
   mix-blend-mode: multiply;
-  border-radius: 100%;
+  border-radius: 25%;
 `;
 
 export const StyledDiv = styled.div`
