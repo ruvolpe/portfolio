@@ -114,7 +114,7 @@ export const StyledImageBox = styled.div`
 
 export const StyledSpan = styled.span`
   color: var(--purple);
-  @media screen and (min-width: 375px) {
+  @media screen and (min-width: 768px) {
     letter-spacing: clamp(1px, 1.5vw, 5px);
     font-size: 3rem;
   }
