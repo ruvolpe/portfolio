@@ -6,12 +6,17 @@ import bank from "../../assets/bank.png";
 
 function Projects() {
   const projects = [
-    ["Rubitube", "https://rubitube.vercel.app/", rubitube, "React"],
+    [
+      "Rubitube",
+      "https://rubitube.vercel.app/",
+      rubitube,
+      "https://github.com/ruvolpe/rubitube",
+    ],
     [
       "Robofriends",
       "https://ruvolpe.github.io/robofriends/",
       robofriends,
-      "React",
+      "https://github.com/ruvolpe/robofriends",
     ],
     [
       "Bank Balance",
