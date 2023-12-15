@@ -35,7 +35,7 @@ function Banner() {
             <StyledSpan>
               Love
               <br />
-            </StyledSpan>{" "}
+            </StyledSpan>
             for creating and <br />
             <StyledSpan> Developing </StyledSpan>
             projects
