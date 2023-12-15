@@ -14,24 +14,32 @@ const rotateUp = keyframes`
 
 export const StyledMain = styled.main`
   display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
   width: 100vw;
   overflow: hidden;
   background: var(--dark-grey);
   color: var(--grey);
+  @media (min-width: 768px) {
+    justify-content: flex-start;
+  }
 `;
 
 export const StyledDiv = styled.div`
-  height: 90vh;
-  position: relative;
+  height: 100vh;
   z-index: 1;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   justify-content: center;
-  padding: clamp(3.125rem, 6rem, 7rem);
-  position: relative;
   overflow: none;
+  align-items: center;
+  padding: 0.5rem;
+
+  @media (min-width: 768px) {
+    padding: clamp(3.125rem, 6rem, 7rem);
+    align-items: flex-start;
+  }
 `;
 
 export const StyledHelloBox = styled.div`
@@ -67,8 +75,12 @@ export const StyledTextDiv = styled.div`
 `;
 
 export const StyledH1 = styled.h1`
-  font-size: 2em;
   color: var(--white);
+  font-size: 1.5em;
+
+  @media (min-width: 768) {
+    font-size: 2em;
+  }
 `;
 
 export const StyledP = styled.p`

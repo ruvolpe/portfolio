@@ -12,6 +12,12 @@ export const StyledMain = styled.main`
   @media (min-width: 768px) {
     height: 100vh;
   }
+  .parallax {
+    display: none;
+    @media (min-width: 768px) {
+      display: flex;
+    }
+  }
 `;
 
 export const StyledBox = styled.div`
@@ -22,6 +28,19 @@ export const StyledBox = styled.div`
   flex-wrap: wrap;
   gap: 100px;
   height: 100%;
+`;
+
+export const StyledBoxMobile = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 60vw;
+  flex-wrap: wrap;
+  gap: 100px;
+  height: 100%;
+  @media (min-width: 768px) {
+    display: none;
+  }
 `;
 
 export const StyledTriangle = styled.div`
