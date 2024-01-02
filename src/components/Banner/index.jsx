@@ -58,8 +58,8 @@ function Banner() {
         <img src={robofriends} alt="" />
         <img src={bank} alt="" />
         <img src={rubitube} alt="" />
-        <img src={rubitube} alt="" />
-        <img src={rubitube} alt="" />
+        <img src={robofriends} alt="" />
+        <img src={bank} alt="" />
       </StyledImageBox>
     </StyledMain>
   );
